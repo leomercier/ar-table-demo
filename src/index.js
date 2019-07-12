@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
+
+import image from "./assets/images/table.png";
+import table from "./assets/images/WoodenTabletexture.usdz";
+
 import "./index.scss";
 
 class App extends Component {
@@ -16,8 +20,8 @@ class App extends Component {
           Crowdform
         </a>
         <p>Circular Side Table AR Demo</p>
-        <a href="./assets/images/WoodenTabletexture.usdz">
-          <img src="./assets/images/table.png" alt="wooden table" />
+        <a href={table}>
+          <img src={image} alt="wooden table" />
           {/* https://www.theinvisiblecollection.com/wp-content/uploads/2019/04/TheInvisibleCollection_ETEL_Gregori_Warchavchik_CircularTable-485x485.jpg */}
         </a>
 
